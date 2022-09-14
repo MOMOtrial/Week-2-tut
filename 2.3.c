@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <math.h>
+#define PI 3.14159
 
 // Variable sub in --> format specifiers
 // %d = intergers (int)
@@ -15,3 +17,22 @@ int main() {
     char example = '\"';
     printf("%c", example);
 }
+
+// Addition -> +
+// Subtraction -> -
+// Multiplication -> *
+// Division -> /
+// Modulus -> % gives remainder of division
+
+int main() {
+    int y = 5;
+    y += 5;
+    printf("%d", y);
+}
+
+int main() {
+    int radius = 4;
+    float area = PI * pow(radius, 2);
+    printf("The area pf the circle is %f", area);
+}
+ 
